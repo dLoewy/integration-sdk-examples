@@ -1,0 +1,14 @@
+<appian-plugin name="JDBC Datasource" key="com.mycorp.helloworld">
+
+  <plugin-info>
+    <description>Appian - JDBC Datasource</description>
+    <vendor name="Appian" url="http://www.appian.com"/>
+    <version>1.0.0.0</version>
+    <application-version min="21.1.0.0"/>
+  </plugin-info>
+
+  <connected-system-template key="JdbcDatasourceConnectedSystemTemplate" name="JdbcDatasourceConnectedSystemTemplate"
+                             class="com.appian.connectedsystem.jdbcdatasource.JdbcDatasourceConnectedSystemTemplate">
+
+  </connected-system-template>
+</appian-plugin>
